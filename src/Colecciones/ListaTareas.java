@@ -12,6 +12,7 @@ public class ListaTareas {
         tarea.add("Corregir CV");
         tarea.add("Sacar los perros a pasear");
         tarea.add("Comprar patines");
+        tarea.add("Estudiar Java");
 
         System.out.println("~~~~~~~~~~~~~~~~~LISTA TAREAS~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Mi lista de tareas: " + tarea);
