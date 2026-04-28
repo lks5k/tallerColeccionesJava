@@ -3,7 +3,7 @@ package Colecciones;
 import java.util.HashSet;
 import java.util.Set;
 
-public class bibliotecaLibrosUnicos {
+public class BibliotecaLibrosUnicos {
     public static void main(String[] args) {
 
         Set<String> libros = new HashSet<>();
@@ -14,13 +14,15 @@ public class bibliotecaLibrosUnicos {
         libros.add("La carta a García");
         libros.add("Los 4 acuerdos");
 
-        System.out.println("~~~~~~~~~~~~~~~~HashSet~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~BIBLIOTECA DE LIBROS UNICOS~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Libros disponibles: " + libros);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         System.out.println("Está " + "La carta a García " + "disponible?: " + libros.contains("La carta a García"));
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         System.out.println("Tenemos " + libros.size() + " libros disponibles.");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
     }
 
